@@ -1,0 +1,58 @@
+{
+  "eyebrow": "// software engineer",
+  "greeting": "Hi, I'm",
+  "name": "Alex",
+  "surnameGradient": "Morgan",
+  "title": "Software Engineer",
+  "rotatingSubtitles": [
+    "Software Engineer",
+    "Distributed Systems",
+    "CI/CD"
+  ],
+  "summary": "Software engineer with 5+ years of experience designing scalable web applications, cloud infrastructure, and data-driven products. I focus on clean architecture, developer experience, and shipping features that move business metrics. Comfortable across the stack, from React frontends to distributed backend services and CI/CD automation.",
+  "avatarUrl": "",
+  "openToWork": true,
+  "cta": {
+    "buttons": [
+      {
+        "text": "View work",
+        "href": "#projects",
+        "type": "primary",
+        "external": false,
+        "icon": "fas fa-arrow-right"
+      },
+      {
+        "text": "Get in touch",
+        "href": "#contact",
+        "type": "secondary",
+        "external": false,
+        "icon": "fas fa-paper-plane"
+      },
+      {
+        "text": "Copy email",
+        "href": "#",
+        "type": "ghost",
+        "external": false,
+        "icon": "fas fa-envelope",
+        "action": "copy-email"
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/alexmorgan-dev",
+      "icon": "fab fa-github"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/alexmorgan",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:alex.morgan@example.com",
+      "icon": "fas fa-envelope"
+    }
+  ]
+}

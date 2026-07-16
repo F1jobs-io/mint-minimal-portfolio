@@ -1,0 +1,22 @@
+{
+  "sectionTitle": "About",
+  "currentlyLine": "Senior Software Engineer at Acme Cloud.",
+  "paragraphs": [
+    "Software engineer with 5+ years of experience designing scalable web applications, cloud infrastructure, and data-driven products. I focus on clean architecture, developer experience, and shipping features that move business metrics.",
+    "Comfortable across the stack, from React frontends to distributed backend services and CI/CD automation."
+  ],
+  "stats": [
+    {
+      "label": "Years experience",
+      "value": "6+"
+    },
+    {
+      "label": "Projects",
+      "value": "4"
+    },
+    {
+      "label": "Technologies",
+      "value": "19+"
+    }
+  ]
+}

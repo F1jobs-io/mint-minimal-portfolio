@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "label": "Languages",
+      "value": "TypeScript, Python, SQL",
+      "icon": "fas fa-code"
+    },
+    {
+      "label": "Frameworks",
+      "value": "React, Node.js, FastAPI",
+      "icon": "fas fa-toolbox"
+    },
+    {
+      "label": "Tools",
+      "value": "AWS, Docker, Kubernetes",
+      "icon": "fas fa-wrench"
+    },
+    {
+      "label": "Focus",
+      "value": "Distributed Systems, CI/CD",
+      "icon": "fas fa-laptop-code"
+    }
+  ]
+}

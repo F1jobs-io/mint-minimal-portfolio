@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "title": "Alex Morgan — Software Engineer",
+    "description": "Software engineer with 5+ years of experience designing scalable web applications, cloud infrastructure, and data-driven products. I focus on clean architecture, developer experience, and shipping ...",
+    "author": "Alex Morgan",
+    "keywords": "Alex Morgan, Software Engineer, Portfolio, TypeScript, Python, SQL, Go, React, Node.js"
+  },
+  "branding": {
+    "name": "Alex Morgan",
+    "monogram": "AM",
+    "tagline": "Software Engineer"
+  },
+  "settings": {
+    "year": 2026,
+    "enableAnimations": true,
+    "navbarScrollEffect": true,
+    "deployTimestamp": "2026-07-16T05:48:27.628Z"
+  }
+}

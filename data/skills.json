@@ -1,0 +1,48 @@
+{
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "category": "Programming Languages",
+      "icon": "fas fa-code",
+      "skills": [
+        "TypeScript",
+        "Python",
+        "SQL",
+        "Go"
+      ]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "icon": "fas fa-toolbox",
+      "skills": [
+        "React",
+        "Node.js",
+        "FastAPI",
+        "Next.js"
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "icon": "fas fa-wrench",
+      "skills": [
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "PostgreSQL",
+        "Kafka",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "category": "Technical Skills",
+      "icon": "fas fa-laptop-code",
+      "skills": [
+        "Distributed Systems",
+        "CI/CD",
+        "System Design",
+        "Data Pipelines",
+        "REST APIs"
+      ]
+    }
+  ]
+}

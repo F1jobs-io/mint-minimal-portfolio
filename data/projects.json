@@ -1,0 +1,52 @@
+{
+  "sectionTitle": "Featured Projects",
+  "projects": [
+    {
+      "title": "CloudDeploy",
+      "description": "Open-source deployment orchestrator that rolls out containerized apps with zero-downtime blue/green strategies.",
+      "technologies": [
+        "Go",
+        "Kubernetes",
+        "Docker"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/alexmorgan-dev/clouddeploy",
+      "demo": ""
+    },
+    {
+      "title": "InsightBoard",
+      "description": "Real-time analytics dashboard with configurable widgets, streaming charts, and role-based access control.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "WebSockets"
+      ],
+      "icon": "fas fa-globe",
+      "github": "https://github.com/alexmorgan-dev/insightboard",
+      "demo": ""
+    },
+    {
+      "title": "PipeWorks",
+      "description": "Declarative data pipeline framework with schema validation, retries, and observability built in.",
+      "technologies": [
+        "Python",
+        "Kafka",
+        "PostgreSQL"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/alexmorgan-dev/pipeworks",
+      "demo": ""
+    },
+    {
+      "title": "DevMetrics CLI",
+      "description": "Command-line tool that aggregates engineering metrics from GitHub and CI systems into weekly reports.",
+      "technologies": [
+        "TypeScript",
+        "Node.js"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/alexmorgan-dev/devmetrics-cli",
+      "demo": ""
+    }
+  ]
+}

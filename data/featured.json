@@ -1,0 +1,60 @@
+{
+  "sectionTitle": "Featured Projects",
+  "items": [
+    {
+      "title": "CloudDeploy",
+      "tagline": "Go · Kubernetes · Docker",
+      "description": "Open-source deployment orchestrator that rolls out containerized apps with zero-downtime blue/green strategies.",
+      "coverUrl": "",
+      "stack": [
+        "Go",
+        "Kubernetes",
+        "Docker"
+      ],
+      "repo": "https://github.com/alexmorgan-dev/clouddeploy",
+      "demo": "",
+      "accent": "violet"
+    },
+    {
+      "title": "InsightBoard",
+      "tagline": "React · TypeScript · WebSockets",
+      "description": "Real-time analytics dashboard with configurable widgets, streaming charts, and role-based access control.",
+      "coverUrl": "",
+      "stack": [
+        "React",
+        "TypeScript",
+        "WebSockets"
+      ],
+      "repo": "https://github.com/alexmorgan-dev/insightboard",
+      "demo": "",
+      "accent": "cyan"
+    },
+    {
+      "title": "PipeWorks",
+      "tagline": "Python · Kafka · PostgreSQL",
+      "description": "Declarative data pipeline framework with schema validation, retries, and observability built in.",
+      "coverUrl": "",
+      "stack": [
+        "Python",
+        "Kafka",
+        "PostgreSQL"
+      ],
+      "repo": "https://github.com/alexmorgan-dev/pipeworks",
+      "demo": "",
+      "accent": "fuchsia"
+    },
+    {
+      "title": "DevMetrics CLI",
+      "tagline": "TypeScript · Node.js",
+      "description": "Command-line tool that aggregates engineering metrics from GitHub and CI systems into weekly reports.",
+      "coverUrl": "",
+      "stack": [
+        "TypeScript",
+        "Node.js"
+      ],
+      "repo": "https://github.com/alexmorgan-dev/devmetrics-cli",
+      "demo": "",
+      "accent": "violet"
+    }
+  ]
+}

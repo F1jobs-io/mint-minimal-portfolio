@@ -1,0 +1,21 @@
+{
+  "copyright": {
+    "text": "All rights reserved.",
+    "name": "Alex Morgan",
+    "year": 2026
+  },
+  "links": [
+    {
+      "text": "LinkedIn",
+      "url": "https://linkedin.com/in/alexmorgan"
+    },
+    {
+      "text": "GitHub",
+      "url": "https://github.com/alexmorgan-dev"
+    },
+    {
+      "text": "Email",
+      "url": "mailto:alex.morgan@example.com"
+    }
+  ]
+}
