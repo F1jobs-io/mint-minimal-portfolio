@@ -308,6 +308,30 @@ document.addEventListener('DOMContentLoaded', async () => {
     $('#footerYear').textContent = String(siteConfig.settings?.year ?? new Date().getFullYear());
     $('#footerDeployed').textContent = (siteConfig.settings?.deployTimestamp ?? new Date().toISOString()).slice(0, 10);
 
+    // Hydrate identity chrome the section renderers don't cover: the document
+    // title/meta tags, the visible contact email, the footer name, and the
+    // avatar alt text. Without this they keep the template's placeholder values.
+    const fullName = profile.profile?.name || '';
+    const roleTitle = profile.profile?.title || '';
+    const email = profile.contact?.email || '';
+    if (fullName) {
+      const docTitle = roleTitle ? `${fullName} — ${roleTitle}` : fullName;
+      document.title = docTitle;
+      const set = (sel, attr, val) => { const el = document.querySelector(sel); if (el) el.setAttribute(attr, val); };
+      set('meta[name="author"]', 'content', fullName);
+      set('meta[name="description"]', 'content', `${fullName}${roleTitle ? ' — ' + roleTitle : ''}`);
+      set('meta[property="og:title"]', 'content', docTitle);
+      set('meta[name="twitter:title"]', 'content', docTitle);
+      const avatarAlt = document.querySelector('#heroAvatar');
+      if (avatarAlt) avatarAlt.alt = `${fullName} portrait`;
+      const footerNameEl = document.querySelector('#footerName');
+      if (footerNameEl) footerNameEl.textContent = fullName;
+    }
+    if (email) {
+      const contactEmailEl = document.querySelector('#contactEmail');
+      if (contactEmailEl) contactEmailEl.textContent = email;
+    }
+
     // Command palette
     const cmdkActions = [
       { label: 'Goto Projects', icon: 'fas fa-folder', hint: '#projects', run: () => { location.hash = '#projects'; } },
@@ -315,7 +339,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       { label: 'Goto Experience', icon: 'fas fa-briefcase', hint: '#experience', run: () => { location.hash = '#experience'; } },
       { label: 'Goto Contact', icon: 'fas fa-envelope', hint: '#contact', run: () => { location.hash = '#contact'; } },
       { label: 'Copy email', icon: 'fas fa-copy', hint: '⏎', run: () => document.querySelector('[data-action="copy-email"]')?.click() },
-      { label: 'Open GitHub', icon: 'fab fa-github', hint: '↗', run: () => window.open('https://github.com/Alex248', '_blank') },
+      { label: 'Open GitHub', icon: 'fab fa-github', hint: '↗', run: () => window.open(profile.contact?.githubUsername ? 'https://github.com/' + profile.contact.githubUsername : (hero.socialLinks || []).find(x=>x.platform==='GitHub')?.url || 'https://github.com', '_blank') },
       { label: 'Open LinkedIn', icon: 'fab fa-linkedin', hint: '↗', run: () => window.open('https://linkedin.com/in/Alex-reddy-46759b210/', '_blank') },
       { label: 'View resume', icon: 'fas fa-file-pdf', hint: 'pdf', run: () => window.open('documents/Alex_Reddy_Resume.pdf', '_blank') },
     ];
