@@ -1,21 +1,21 @@
 {
   "copyright": {
     "text": "All rights reserved.",
-    "name": "Alex Morgan",
+    "name": "Sofia Alvarez",
     "year": 2026
   },
   "links": [
     {
       "text": "LinkedIn",
-      "url": "https://linkedin.com/in/alexmorgan"
+      "url": "https://linkedin.com/in/sofiaalvarez"
     },
     {
       "text": "GitHub",
-      "url": "https://github.com/alexmorgan-dev"
+      "url": "https://github.com/sofia-alvarez"
     },
     {
       "text": "Email",
-      "url": "mailto:alex.morgan@example.com"
+      "url": "mailto:sofia.alvarez@example.com"
     }
   ]
 }

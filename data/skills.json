@@ -6,8 +6,7 @@
       "icon": "fas fa-code",
       "skills": [
         "TypeScript",
-        "Python",
-        "SQL",
+        "JavaScript",
         "Go"
       ]
     },
@@ -16,31 +15,31 @@
       "icon": "fas fa-toolbox",
       "skills": [
         "React",
+        "Next.js",
         "Node.js",
-        "FastAPI",
-        "Next.js"
+        "Tailwind CSS"
       ]
     },
     {
       "category": "Tools & Platforms",
       "icon": "fas fa-wrench",
       "skills": [
-        "AWS",
+        "GitHub Actions",
         "Docker",
-        "Kubernetes",
         "PostgreSQL",
-        "Kafka",
-        "GitHub Actions"
+        "Vercel",
+        "Playwright"
       ]
     },
     {
       "category": "Technical Skills",
       "icon": "fas fa-laptop-code",
       "skills": [
-        "Distributed Systems",
+        "Web Performance",
+        "Accessibility",
+        "Design Systems",
         "CI/CD",
-        "System Design",
-        "Data Pipelines",
+        "Testing",
         "REST APIs"
       ]
     }

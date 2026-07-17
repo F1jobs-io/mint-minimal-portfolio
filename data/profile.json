@@ -1,18 +1,18 @@
 {
   "profile": {
-    "name": "Alex Morgan",
+    "name": "Sofia Alvarez",
     "title": "Software Engineer",
-    "bio": "Software engineer with 5+ years of experience designing scalable web applications, cloud infrastructure, and data-driven products. I focus on clean architecture, developer experience, and shipping features that move business metrics. Comfortable across the stack, from React frontends to distributed backend services and CI/CD automation."
+    "bio": "Full-stack Software Engineer with 5 years building clean, fast web products. I care about developer experience, accessible UI, and shipping small well-tested increments. Comfortable across a React and TypeScript frontend down to Node services and CI/CD automation."
   },
   "contact": {
-    "email": "alex.morgan@example.com",
-    "phone": "+1 (555) 123-4567",
-    "githubUsername": "alexmorgan-dev",
-    "linkedin": "https://linkedin.com/in/alexmorgan"
+    "email": "sofia.alvarez@example.com",
+    "phone": "+1 (512) 555-0119",
+    "githubUsername": "sofia-alvarez",
+    "linkedin": "https://linkedin.com/in/sofiaalvarez"
   },
   "siteConfig": {
     "domain": "",
-    "title": "Alex Morgan - Portfolio",
-    "description": "Software engineer with 5+ years of experience designing scalable web applications, cloud infrastructure, and data-driven products. I focus on clean architecture, developer experience, and shipping features that move business metrics. Comfortable across the stack, from React frontends to distributed backend services and CI/CD automation."
+    "title": "Sofia Alvarez - Portfolio",
+    "description": "Full-stack Software Engineer with 5 years building clean, fast web products. I care about developer experience, accessible UI, and shipping small well-tested increments. Comfortable across a React and TypeScript frontend down to Node services and CI/CD automation."
   }
 }

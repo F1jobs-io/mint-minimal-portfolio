@@ -2,50 +2,46 @@
   "sectionTitle": "Featured Projects",
   "projects": [
     {
-      "title": "CloudDeploy",
-      "description": "Open-source deployment orchestrator that rolls out containerized apps with zero-downtime blue/green strategies.",
+      "title": "sprout-ui",
+      "description": "Accessible, themeable React component library with zero runtime CSS.",
       "technologies": [
-        "Go",
-        "Kubernetes",
-        "Docker"
-      ],
-      "icon": "fas fa-project-diagram",
-      "github": "https://github.com/alexmorgan-dev/clouddeploy",
-      "demo": ""
-    },
-    {
-      "title": "InsightBoard",
-      "description": "Real-time analytics dashboard with configurable widgets, streaming charts, and role-based access control.",
-      "technologies": [
-        "React",
         "TypeScript",
-        "WebSockets"
+        "React"
       ],
       "icon": "fas fa-globe",
-      "github": "https://github.com/alexmorgan-dev/insightboard",
+      "github": "https://github.com/sofia-alvarez/sprout-ui",
       "demo": ""
     },
     {
-      "title": "PipeWorks",
-      "description": "Declarative data pipeline framework with schema validation, retries, and observability built in.",
+      "title": "leaflet-notes",
+      "description": "Offline-first markdown notes app with local-first sync.",
       "technologies": [
-        "Python",
-        "Kafka",
-        "PostgreSQL"
+        "TypeScript",
+        "IndexedDB"
       ],
       "icon": "fas fa-project-diagram",
-      "github": "https://github.com/alexmorgan-dev/pipeworks",
+      "github": "https://github.com/sofia-alvarez/leaflet-notes",
       "demo": ""
     },
     {
-      "title": "DevMetrics CLI",
-      "description": "Command-line tool that aggregates engineering metrics from GitHub and CI systems into weekly reports.",
+      "title": "ci-canary",
+      "description": "GitHub Action that flags slow or flaky tests over time.",
       "technologies": [
         "TypeScript",
         "Node.js"
       ],
       "icon": "fas fa-project-diagram",
-      "github": "https://github.com/alexmorgan-dev/devmetrics-cli",
+      "github": "https://github.com/sofia-alvarez/ci-canary",
+      "demo": ""
+    },
+    {
+      "title": "pixel-budget",
+      "description": "Performance-budget linter for web bundles.",
+      "technologies": [
+        "Go"
+      ],
+      "icon": "fas fa-project-diagram",
+      "github": "https://github.com/sofia-alvarez/pixel-budget",
       "demo": ""
     }
   ]

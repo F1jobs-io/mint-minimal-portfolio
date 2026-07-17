@@ -1,14 +1,13 @@
 {
   "sectionTitle": "About",
-  "currentlyLine": "Senior Software Engineer at Acme Cloud.",
+  "currentlyLine": "Software Engineer at Brightline Software.",
   "paragraphs": [
-    "Software engineer with 5+ years of experience designing scalable web applications, cloud infrastructure, and data-driven products. I focus on clean architecture, developer experience, and shipping features that move business metrics.",
-    "Comfortable across the stack, from React frontends to distributed backend services and CI/CD automation."
+    "Full-stack Software Engineer with 5 years building clean, fast web products. I care about developer experience, accessible UI, and shipping small well-tested increments. Comfortable across a React and TypeScript frontend down to Node services and CI/CD automation."
   ],
   "stats": [
     {
       "label": "Years experience",
-      "value": "6+"
+      "value": "8+"
     },
     {
       "label": "Projects",
@@ -16,7 +15,7 @@
     },
     {
       "label": "Technologies",
-      "value": "19+"
+      "value": "18+"
     }
   ]
 }

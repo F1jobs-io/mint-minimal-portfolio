@@ -4,17 +4,12 @@
   "education": [
     {
       "degree": "B.S. in Computer Science",
-      "school": "University of California, Berkeley",
-      "institution": "University of California, Berkeley",
-      "period": "2016 - 2020",
+      "school": "University of Texas at Austin",
+      "institution": "University of Texas at Austin",
+      "period": "2015 - 2019",
       "details": "",
       "description": ""
     }
   ],
-  "certifications": [
-    {
-      "name": "AWS Certified Solutions Architect",
-      "issuer": "Amazon Web Services"
-    }
-  ]
+  "certifications": []
 }

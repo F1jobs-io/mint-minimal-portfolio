@@ -2,22 +2,22 @@
   "items": [
     {
       "label": "Languages",
-      "value": "TypeScript, Python, SQL",
+      "value": "TypeScript, JavaScript, Go",
       "icon": "fas fa-code"
     },
     {
       "label": "Frameworks",
-      "value": "React, Node.js, FastAPI",
+      "value": "React, Next.js, Node.js",
       "icon": "fas fa-toolbox"
     },
     {
       "label": "Tools",
-      "value": "AWS, Docker, Kubernetes",
+      "value": "GitHub Actions, Docker, PostgreSQL",
       "icon": "fas fa-wrench"
     },
     {
       "label": "Focus",
-      "value": "Distributed Systems, CI/CD",
+      "value": "Web Performance, Accessibility",
       "icon": "fas fa-laptop-code"
     }
   ]

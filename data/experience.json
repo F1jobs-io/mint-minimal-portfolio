@@ -2,29 +2,29 @@
   "sectionTitle": "Professional Experience",
   "experiences": [
     {
-      "title": "Senior Software Engineer",
-      "company": "Acme Cloud",
-      "period": "Jan 2023 - Present",
-      "location": "San Francisco, CA",
+      "title": "Software Engineer",
+      "company": "Brightline Software",
+      "period": "Apr 2022 - Present",
+      "location": "Austin, TX",
       "logoDomain": "",
       "description": "",
       "responsibilities": [
-        "Led the redesign of a multi-tenant API platform serving 2M+ requests per day, cutting p99 latency by 45%",
-        "Built CI/CD pipelines with GitHub Actions and Docker, reducing deployment time from hours to minutes",
-        "Mentored four junior engineers and established the team code review and testing standards"
+        "Shipped a component library and design system used across five product teams",
+        "Cut page load time 40% through code-splitting, caching, and image optimization",
+        "Raised automated test coverage from 45% to 88%, halving production regressions"
       ]
     },
     {
-      "title": "Software Engineer",
-      "company": "Brightline Labs",
-      "period": "Jun 2020 - Dec 2022",
+      "title": "Frontend Engineer",
+      "company": "Fern Labs",
+      "period": "Jun 2019 - Mar 2022",
       "location": "Remote",
       "logoDomain": "",
       "description": "",
       "responsibilities": [
-        "Developed customer-facing dashboards in React and TypeScript used by 40k monthly active users",
-        "Designed event-driven data pipelines with Kafka and Python processing 10M+ events daily",
-        "Improved automated test coverage from 40% to 85%, cutting production regressions in half"
+        "Built accessible, responsive dashboards used by 30k+ monthly active users",
+        "Introduced end-to-end testing with Playwright and a CI pipeline on GitHub Actions",
+        "Partnered with design to ship a full rebrand with zero downtime"
       ]
     }
   ]

@@ -1,16 +1,16 @@
 {
   "eyebrow": "// software engineer",
   "greeting": "Hi, I'm",
-  "name": "Alex",
-  "surnameGradient": "Morgan",
+  "name": "Sofia",
+  "surnameGradient": "Alvarez",
   "title": "Software Engineer",
   "rotatingSubtitles": [
     "Software Engineer",
-    "Distributed Systems",
-    "CI/CD"
+    "Web Performance",
+    "Accessibility"
   ],
-  "summary": "Software engineer with 5+ years of experience designing scalable web applications, cloud infrastructure, and data-driven products. I focus on clean architecture, developer experience, and shipping features that move business metrics. Comfortable across the stack, from React frontends to distributed backend services and CI/CD automation.",
-  "avatarUrl": "",
+  "summary": "Full-stack Software Engineer with 5 years building clean, fast web products. I care about developer experience, accessible UI, and shipping small well-tested increments. Comfortable across a React and TypeScript frontend down to Node services and CI/CD automation.",
+  "avatarUrl": "assets/images/avatar.jpg",
   "openToWork": true,
   "cta": {
     "buttons": [
@@ -41,17 +41,17 @@
   "socialLinks": [
     {
       "platform": "GitHub",
-      "url": "https://github.com/alexmorgan-dev",
+      "url": "https://github.com/sofia-alvarez",
       "icon": "fab fa-github"
     },
     {
       "platform": "LinkedIn",
-      "url": "https://linkedin.com/in/alexmorgan",
+      "url": "https://linkedin.com/in/sofiaalvarez",
       "icon": "fab fa-linkedin"
     },
     {
       "platform": "Email",
-      "url": "mailto:alex.morgan@example.com",
+      "url": "mailto:sofia.alvarez@example.com",
       "icon": "fas fa-envelope"
     }
   ]

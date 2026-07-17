@@ -2,57 +2,53 @@
   "sectionTitle": "Featured Projects",
   "items": [
     {
-      "title": "CloudDeploy",
-      "tagline": "Go · Kubernetes · Docker",
-      "description": "Open-source deployment orchestrator that rolls out containerized apps with zero-downtime blue/green strategies.",
+      "title": "sprout-ui",
+      "tagline": "TypeScript · React",
+      "description": "Accessible, themeable React component library with zero runtime CSS.",
       "coverUrl": "",
       "stack": [
-        "Go",
-        "Kubernetes",
-        "Docker"
+        "TypeScript",
+        "React"
       ],
-      "repo": "https://github.com/alexmorgan-dev/clouddeploy",
+      "repo": "https://github.com/sofia-alvarez/sprout-ui",
       "demo": "",
       "accent": "violet"
     },
     {
-      "title": "InsightBoard",
-      "tagline": "React · TypeScript · WebSockets",
-      "description": "Real-time analytics dashboard with configurable widgets, streaming charts, and role-based access control.",
+      "title": "leaflet-notes",
+      "tagline": "TypeScript · IndexedDB",
+      "description": "Offline-first markdown notes app with local-first sync.",
       "coverUrl": "",
       "stack": [
-        "React",
         "TypeScript",
-        "WebSockets"
+        "IndexedDB"
       ],
-      "repo": "https://github.com/alexmorgan-dev/insightboard",
+      "repo": "https://github.com/sofia-alvarez/leaflet-notes",
       "demo": "",
       "accent": "cyan"
     },
     {
-      "title": "PipeWorks",
-      "tagline": "Python · Kafka · PostgreSQL",
-      "description": "Declarative data pipeline framework with schema validation, retries, and observability built in.",
-      "coverUrl": "",
-      "stack": [
-        "Python",
-        "Kafka",
-        "PostgreSQL"
-      ],
-      "repo": "https://github.com/alexmorgan-dev/pipeworks",
-      "demo": "",
-      "accent": "fuchsia"
-    },
-    {
-      "title": "DevMetrics CLI",
+      "title": "ci-canary",
       "tagline": "TypeScript · Node.js",
-      "description": "Command-line tool that aggregates engineering metrics from GitHub and CI systems into weekly reports.",
+      "description": "GitHub Action that flags slow or flaky tests over time.",
       "coverUrl": "",
       "stack": [
         "TypeScript",
         "Node.js"
       ],
-      "repo": "https://github.com/alexmorgan-dev/devmetrics-cli",
+      "repo": "https://github.com/sofia-alvarez/ci-canary",
+      "demo": "",
+      "accent": "fuchsia"
+    },
+    {
+      "title": "pixel-budget",
+      "tagline": "Go",
+      "description": "Performance-budget linter for web bundles.",
+      "coverUrl": "",
+      "stack": [
+        "Go"
+      ],
+      "repo": "https://github.com/sofia-alvarez/pixel-budget",
       "demo": "",
       "accent": "violet"
     }
