@@ -30,6 +30,14 @@ function renderHero(hero) {
   $('#heroSurname').textContent = hero.surnameGradient ?? '';
   $('#heroSummary').textContent = hero.summary ?? '';
 
+  // Nav brand monogram follows the person, not the demo content.
+  const brand = document.querySelector('a.gradient-text[href="#home"]');
+  const fullName = ((hero.name ?? '') + ' ' + (hero.surnameGradient ?? '')).trim();
+  if (brand && fullName) {
+    const initials = fullName.split(/\s+/).map((w) => w[0]).filter(Boolean).slice(0, 2).join('').toUpperCase();
+    if (initials) brand.textContent = initials;
+  }
+
   const avatar = $('#heroAvatar');
   if (avatar && hero.avatarUrl) avatar.src = hero.avatarUrl;
 
