@@ -348,8 +348,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       { label: 'Goto Contact', icon: 'fas fa-envelope', hint: '#contact', run: () => { location.hash = '#contact'; } },
       { label: 'Copy email', icon: 'fas fa-copy', hint: '⏎', run: () => document.querySelector('[data-action="copy-email"]')?.click() },
       { label: 'Open GitHub', icon: 'fab fa-github', hint: '↗', run: () => window.open(profile.contact?.githubUsername ? 'https://github.com/' + profile.contact.githubUsername : (hero.socialLinks || []).find(x=>x.platform==='GitHub')?.url || 'https://github.com', '_blank') },
-      { label: 'Open LinkedIn', icon: 'fab fa-linkedin', hint: '↗', run: () => window.open('https://linkedin.com/in/Sofia-reddy-46759b210/', '_blank') },
-      { label: 'View resume', icon: 'fas fa-file-pdf', hint: 'pdf', run: () => window.open('documents/Alex_Reddy_Resume.pdf', '_blank') },
+      { label: 'Open LinkedIn', icon: 'fab fa-linkedin', hint: '↗', run: () => window.open(profile.contact?.linkedin || (hero.socialLinks || []).find(x=>x.platform==='LinkedIn')?.url || 'https://linkedin.com', '_blank') },
+      { label: 'View resume', icon: 'fas fa-file-pdf', hint: 'pdf', run: () => window.open('assets/files/resume.pdf', '_blank') },
     ];
     mountCommandPalette(cmdkActions);
     mountScrollReveal();
